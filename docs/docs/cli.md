@@ -433,7 +433,7 @@ The new version should ideally be a valid semver string or a valid bump rule:
 This command exports the lock file to other formats.
 
 ```bash
-poetry export -f requirements.txt > requirements.txt
+poetry export -f requirements.txt -o requirements.txt
 ```
 
 !!!note
